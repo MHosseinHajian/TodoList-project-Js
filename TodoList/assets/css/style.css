@@ -1,0 +1,84 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: rgb(244, 244, 244);
+}
+
+.content{
+    max-width: 600px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px #e2e2e2;
+    background: #fff;
+    margin: 20px auto;
+}
+
+.content h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    margin-bottom: 10px;
+    padding: 10px 10px;
+    display: inline-block;
+    background: #03af00;
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 4px #b8b8b8;
+}
+
+.content ul{
+    width: 100%;
+}
+
+.content ul>li{
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #e2e2e2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    transition:box-shadow .4s ;
+    margin-bottom: 20px;
+}
+
+.content ul>li:last-child{
+    margin-bottom: 0px;
+}
+
+.content ul>li>i{
+    cursor: pointer;
+}
+
+.content ul>li:hover{
+    box-shadow: 0px 0px 10px #e2e2e2;
+
+}
+
+#addTodo{
+    max-width: 600px;
+    padding: 10px;
+    border-radius: 5px;
+    background: #fff;
+    box-shadow: 0px 0px 10px #e2e2e2;
+    margin: 0 auto;
+}
+
+#addTodo input{
+    width: 100%;
+    display: block;
+    padding: 10px;
+    border: 2px solid #e2e2e2;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    border-radius: 5px;
+}
+
+#addTodo input:focus{
+    outline: 2px solid #d5d5d5;
+}
